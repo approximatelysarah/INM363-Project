@@ -49,7 +49,7 @@ def load_data(dataset):
     train, train_label = [],[]
     dev, dev_label = [],[]
     test, test_label = [],[]
-    
+
     f = h5py.File('data/reuters_multilabel_dataset.hdf5', 'r')
     print('loading data...')    
     print(dataset)
